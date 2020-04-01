@@ -58,7 +58,7 @@ export default class App extends Component {
           </Table>
           <ScrollView style={styles.dataWrapper}>
             <Table borderStyle={{borderWidth: 1, borderColor: '#C1C0B9'}}>
-              {/* {
+              {
                 tableData.map((rowData, index) => (
                   <Row
                     key={index}
@@ -67,7 +67,7 @@ export default class App extends Component {
                     textStyle={styles.text}
                   />
                 ))
-              } */}
+              }
             </Table>
           </ScrollView>
         </View>
